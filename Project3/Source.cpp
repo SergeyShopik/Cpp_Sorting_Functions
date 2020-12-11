@@ -18,7 +18,7 @@ int main()
 		int A[SIZE], B[SIZE], C[10];
 		int k = 0;
 		srand(time(0));
-		//1. Ввести 2 массива А и В целых чисел.Найти максимальный элемент массива А не принадлежащий массиву В.
+		// 1. Enter two arrays of integers A and B. Find max element of the A array which doesn't belong to B array
 		initArrayAuto(A, SIZE);
 		bubblesort(A, SIZE);
 		printArray(A, SIZE);
@@ -26,17 +26,17 @@ int main()
 		bubblesort(B, SIZE);
 		printArray(B, SIZE);
 		_1_searchMax(A, B, SIZE);
-		//2. Дан массив целых чисел, в котором все числа кроме одного встречаются четное количество раз, 
-		//одно число встречается нечетное количество раз.Найти это число.
+		// 2. Given array of integers, in which all numbers except one encounter even number of times, one number encounters one time. Find this number.
 		initArray(A, SIZE);
 		std::cout << _2_searchOddNum(A, SIZE) << std::endl;
-		//3. Из последовательности целых чисел выбрать три числа, произведение которых максимально.
+		// 3. Choose from the sequence three numbers whose product is maximum.
 		if (_3_searchMaxMult(A, SIZE) == A[0])
 			std::cout << A[0] << "  " << A[1] << "  " << A[2] << std::endl;
 		else	std::cout << A[SIZE - 1] << "  " << A[SIZE - 2] << "  " << A[0] << std::endl;
-		//4. Задан одномерный массив.Подсчитать количество нулевых зон.
+		// 4. Given onedimension array. Count number of zero zones.
 		std::cout << _4_countNullZones(A, SIZE) << std::endl;
-		//5. Поменять местами максимальный элемент массива и последний.При этом сформировать новый массив.Вывести оба массива.
+		//5. РџРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РјР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚ РјР°СЃСЃРёРІР° Рё РїРѕСЃР»РµРґРЅРёР№.РџСЂРё СЌС‚РѕРј СЃС„РѕСЂРјРёСЂРѕРІР°С‚СЊ РЅРѕРІС‹Р№ РјР°СЃСЃРёРІ.Р’С‹РІРµСЃС‚Рё РѕР±Р° РјР°СЃСЃРёРІР°.
+		// 5. Change places of max element and last element of the array. Wherein create a new array. Print both arrays.
 		_5_swapMaxAndLast(A, B, SIZE);
 
 	}

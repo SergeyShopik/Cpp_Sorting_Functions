@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\HP\source\repos\Project3\Project3\Source.cpp(20,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\source\repos\Project3\Project3\Source.cpp(18,25): warning C4101: C: неиспользованная локальная переменная
+C:\Users\HP\source\repos\Project3\Project3\Source.cpp(182,7): warning C4101: j: неиспользованная локальная переменная
+C:\Users\HP\source\repos\Project3\Project3\Source.cpp(137): warning C4715: _2_searchOddNum: значение возвращается не при всех путях выполнения
+  Project3.vcxproj -> C:\Users\HP\source\repos\Project3\Debug\Project3.exe
